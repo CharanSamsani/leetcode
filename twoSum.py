@@ -11,8 +11,8 @@ def twoSum(nums, target):
     return sol
 
 
-nums = [2, 7, 11, 15]
-target = 18
+nums = []
+target = 0
 new = []
 sol = []
 
