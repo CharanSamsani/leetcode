@@ -12,7 +12,7 @@ def twoSum(nums, target):
 
 
 nums = []
-target = 0
+target = int(input("Enter target value : "))
 new = []
 sol = []
 
