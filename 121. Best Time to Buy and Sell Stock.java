@@ -15,7 +15,7 @@ class Solution {
             nums[i]=sc.nextInt();
         } 
 
-        maxProfit(nums);
+        Syetem.out.print(maxProfit(nums));
     }
     
     public static int maxProfit(int[] prices) 
