@@ -1,5 +1,25 @@
+import java.util.Scanner;
+
 class Solution {
-    public int maxProfit(int[] prices) {
+    public static void main(String[] args)
+    {
+        Scanner sc = new Scanner(System.in);
+        
+        System.out.print("Enter the array size : ");
+        int size = sc.nextInt();
+        int[] nums = new int[size];
+        
+        System.out.print("Enter the arry values : ");
+        for (int i=0; i<size; i++)
+        {
+            nums[i]=sc.nextInt();
+        } 
+
+        maxProfit(nums);
+    }
+    
+    public static int maxProfit(int[] prices) 
+    {
         int buy_prices = prices[0];
 
         int profit = 0;
